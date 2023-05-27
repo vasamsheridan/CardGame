@@ -41,7 +41,9 @@ public class CardTrick {
             magicHand[i]=c;
             System.out.println("Random Card = "+ magicHand[i].getSuit()+ " " +magicHand[i].getValue());
             
-            if ((s+" "+v).equals(magicHand[i].getSuit()+ " " +magicHand[i].getValue())){
+            String luckyCard = "Diamonds 6";
+            
+            if ((s+" "+v).equals(magicHand[i].getSuit()+ " " +magicHand[i].getValue()) || (luckyCard.equals(magicHand[i].getSuit()+ " " +magicHand[i].getValue()))){
                 System.out.println("Yes, the user’s card is in the magic hand of random cards.");
             }
             else {
