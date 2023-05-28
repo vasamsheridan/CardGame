@@ -1,4 +1,4 @@
-/*
+ /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
@@ -13,6 +13,21 @@ package card;
  * add your name as a modifier.
  * @author srinivsi
  */
+/**
+ * A class that models playing card Objects. Cards have 
+ * a value (note that Ace = 1, Jack -11, Queen =12, King = 13)
+ * A suit (clubs, hearts, spades, diamonds).
+ * There are 52 cards in a deck, no jokers.
+ * This code is to be used in ICE1. When you create your own branch,
+ * add your name as a modifier.
+ * @author srinivsi
+ */
+
+/**
+ * Name: Arun Pandayn Vasam
+ * Student Id: 991707667
+ */
+
 public class Card {
 
    private String suit; //clubs, spades, diamonds, hearts
